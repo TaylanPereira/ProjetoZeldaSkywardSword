@@ -1,0 +1,137 @@
+@media(max-width: 1140px) {
+    .home .informacoes {
+        padding: 100px 40px 5px;
+        margin: 0 auto;
+    }
+
+    .btn-compra-agora {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1024px) {
+
+    .cabecalho {
+        justify-content: space-around;
+        padding: 40px 0;
+        gap: 15px;
+    }
+
+    .cabecalho li a {
+        padding: 15px;
+    }
+
+    .nintendo {
+        height: 30px;
+        width: 100px;
+    }
+
+    .nintendo-switch {
+        height: 45px;
+        width: 100px;
+    }
+
+    .home .informacoes {
+        padding: 100px 40px 5px;
+        margin: 0 auto;
+    }
+
+    .home .informacoes .titulo {
+        font-size: 45px;
+    }
+
+    .home .informacoes .texto {
+        font-size: 18px;
+    }
+
+    .btn-adquire-ja {
+        width: 50%;
+    }
+
+    .home .informacoes img {
+        max-width: 150px;
+    }
+
+    .adquire-ja .cartao {
+        width: 70%;
+    }
+
+    .btn-compra-agora {
+        width: 100%;
+    }
+}
+
+@media(max-width: 747px) {
+
+    .cabecalho {
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 0;
+        gap: 10px;
+    }
+
+    .cabecalho .menu li a {
+        font-size: 12px;
+        text-align: center;
+        padding: 9px 0;
+    }
+
+    .nintendo {
+        height: 30px;
+        width: 100px;
+    }
+
+    .nintendo-switch {
+        height: 50px;
+        width: 80px;
+    }
+
+    .home .informacoes {
+        padding: 100px 40px 5px;
+    }
+
+
+    .home .informacoes .titulo {
+        font-size: 40px;
+    }
+
+    .home .informacoes .texto {
+        font-size: 16px;
+    }
+
+    .home .informacoes img {
+        width: 120px;
+        margin-top: 50px;
+    }
+
+    .btn-adquire-ja {
+        font-size: 25px;
+        width: 50%;
+    }
+
+    .adquire-ja .cartao {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .adquire-ja .informacoes h2 {
+        font-size: 25px;
+    }
+
+    .adquire-ja .informacoes h3 {
+        font-size: 35px;
+    }
+
+    .adquire-ja .informacoes p {
+        font-size: 18px;
+    }
+
+    .btn-compra-agora {
+        font-size: 20px;
+        width: 100%;
+    }
+
+    .adquire-ja .cartao img {
+        width: 80%;
+    }
+}

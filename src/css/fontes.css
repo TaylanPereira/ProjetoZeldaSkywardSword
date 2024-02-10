@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'SourceSerif';
+    src: url('../fontes/SourceSerif4-Italic-VariableFont_opsz\,wght.ttf');
+}
+
+@font-face {
+    font-family: 'SourceSerif4';
+    src: url('../fontes/SourceSerif4-VariableFont_opsz\,wght.ttf');
+}
+
+@font-face {
+    font-family: 'PerfectDosVGA';
+    src: url('../fontes/Perfect\ DOS\ VGA\ 437\ Win.ttf');
+}
+
+@font-face {
+    font-family: 'PerfectDosVGA437';
+    src: url('../fontes/Perfect\ DOS\ VGA\ 437.ttf');
+}

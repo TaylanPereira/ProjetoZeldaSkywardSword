@@ -1,0 +1,196 @@
+body {
+    background-color: #282828;
+    color: #fff;
+}
+
+header {
+    width: 100%;
+}
+
+section {
+    background-image: url('../imagens/wp4320997-the-legend-of-zelda-botw-wallpapers.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.nintendo {
+    display: flex;
+    height: 60px;
+    width: 100px;
+}
+
+.nintendo-switch {
+    display: flex;
+    height: 60px;
+    width: 100px;
+}
+
+.cabecalho {
+    height: 80px;
+    background-color: #e40515;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    gap: 25px;
+}
+
+.cabecalho .menu li a {
+    padding: 29px;
+    color: #e8e8e8;
+    font-weight: bolder;
+    font-size: 12px;
+    font-family: 'SourceSerif4';
+}
+
+.cabecalho .menu li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.cabecalho .logo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.home {
+    display: flex;
+    position: relative;
+    min-height: calc(100vh - 80px);
+}
+
+.home::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(360deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 35%, transparent 65%);
+}
+
+.home .imagem-fundo {
+    width: 100%;
+    object-fit: cover;
+}
+
+.home .informacoes {
+    position: absolute;
+    z-index: 1;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    padding: 80px 80px 80px 170px;
+    max-width: 780px;
+    margin-top: 12%;
+}
+
+.home .informacoes img {
+    max-width: 150px;
+}
+
+.home .informacoes .lista-de-jogos {
+    display: flex;
+    gap: 32px;
+}
+
+.home .informacoes .titulo {
+    font-family: 'PerfectDosVGA';
+    font-size: 50px;
+}
+
+.home .informacoes .texto {
+    font-family: 'PerfectDosVGA';
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+.adquire-ja {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+}
+
+.adquire-ja .cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #13488e;
+    width: 50%;
+    border-radius: 10px;
+    padding: 80px;
+    gap: 40px;
+}
+
+.adquire-ja .titulo {
+    font-family: 'SourceSerif';
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.adquire-ja .informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.adquire-ja .informacoes h3 {
+    font-family: 'SourceSerif';
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.adquire-ja .informacoes p {
+    color: #e8e8e8;
+    font-family: 'SourceSerif4';
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.btn-compra-agora {
+    background-color: rgba(255, 255, 255, .1);
+    border: 0.5px solid #fff;
+    border-radius: 5px;
+    font-family: 'SourceSerif4';
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 20px;
+    width: 50%;
+    transition: all .3s ease-in;
+}
+
+.btn-compra-agora:hover {
+    background-color: #fff;
+    color: #13488e;
+}
+
+.btn-adquire-ja {
+    background-color: rgba(255, 255, 255, .1);
+    border: 0.5px solid #fff;
+    border-radius: 5px;
+    font-family: 'PerfectDosVGA';
+    font-size: 28px;
+    text-align: center;
+    padding: 10px 20px;
+    width: 50%;
+    transition: all .3s ease-in;
+}
+
+.btn-adquire-ja:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.divisoria {
+    background-color: #fff;
+}
